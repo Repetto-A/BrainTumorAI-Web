@@ -237,33 +237,7 @@ export default function BrainTumorClassifier() {
             <Brain className="w-8 h-8 text-blue-600" />
             <h1 className="text-3xl font-semibold text-gray-900">Brain Tumor Classifier</h1>
           </div>
-          <p className="text-gray-600 mb-4">AI-powered MRI analysis using deep learning</p>
-          {modelStatus === "loading" && (
-            <Alert className="bg-blue-50 border-blue-200 mb-4">
-              <AlertDescription className="text-blue-800">Loading ONNX model... Please wait.</AlertDescription>
-            </Alert>
-          )}
-          {modelStatus === "error" && (
-            <Alert className="bg-red-50 border-red-200 mb-4">
-              <AlertTriangle className="h-4 w-4 text-red-600" />
-              <AlertDescription className="text-red-800">
-                <strong>Model Error:</strong> {modelError}
-              </AlertDescription>
-            </Alert>
-          )}
-          {modelStatus === "ready" && (
-            <Alert className="bg-green-50 border-green-200 mb-4">
-              <AlertDescription className="text-green-800">
-                <strong>Model Ready</strong> - ONNX Runtime Web loaded successfully
-              </AlertDescription>
-            </Alert>
-          )}
-          <Alert className="bg-yellow-50 border-yellow-200">
-            <AlertTriangle className="h-4 w-4 text-yellow-600" />
-            <AlertDescription className="text-yellow-800">
-              <strong>Research Demo</strong> - Not for Medical Diagnosis
-            </AlertDescription>
-          </Alert>
+          <p className="text-gray-600">AI-powered MRI analysis using deep learning</p>
         </div>
       </header>
 
