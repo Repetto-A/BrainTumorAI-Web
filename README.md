@@ -62,13 +62,13 @@ See full [DISCLAIMER](#-disclaimer) below.
 
 ## 🎯 Live Demo
 
-Try it now: **[https://your-app.vercel.app](https://your-app.vercel.app)**
+Try it now: **[https://brain-tumor-ai-web.vercel.app/](https://brain-tumor-ai-web.vercel.app/)**
 
 Or run locally in 30 seconds:
 
 ```bash
-git clone https://github.com/C0mpl3xC0D3/BrainTumorClassifierWeb.git
-cd BrainTumorClassifierWeb
+git clone https://github.com/Repetto-A/BrainTumorAI-Web.git
+cd BrainTumorAI-Web
 npm install
 npm run dev
 # Open http://localhost:3000
@@ -123,8 +123,8 @@ Model Architecture
 
 ```bash
 # 1. Clone the repository
-git clone https://github.com/C0mpl3xC0D3/BrainTumorClassifierWeb.git
-cd BrainTumorClassifierWeb
+git clone https://github.com/Repetto-A/BrainTumorAI-Web.git
+cd BrainTumorAI-Web
 
 # 2. Install dependencies
 npm install
@@ -148,7 +148,7 @@ npm start
 ## 📂 Project Structure
 
 ```
-BrainTumorClassifierWeb/
+BrainTumorAI-Web/
 ├── app/
 │   ├── layout.tsx              # Root layout with metadata
 │   └── page.tsx                # Main classifier interface
@@ -253,7 +253,7 @@ Softmax → Class probabilities
 
 ### Recommended: Vercel (Free)
 
-[![Deploy with Vercel](https://vercel.com/button)](https://vercel.com/new/clone?repository-url=https://github.com/C0mpl3xC0D3/BrainTumorClassifierWeb)
+[![Deploy with Vercel](https://vercel.com/button)](https://vercel.com/new/clone?repository-url=https://github.com/Repetto-A/BrainTumorAI-Web)
 
 **Automatic deployment:**
 1. Push to GitHub
@@ -289,8 +289,8 @@ CMD ["npm", "start"]
 ```
 
 ```bash
-docker build -t brain-tumor-classifier .
-docker run -p 3000:3000 brain-tumor-classifier
+docker build -t BrainTumorAI-Web .
+docker run -p 3000:3000 BrainTumorAI-Web
 ```
 
 ---
@@ -476,18 +476,10 @@ This project is released into the **public domain** (Unlicense).
 
 ---
 
-## 📚 Related Projects
+## 📚 Related Project
 
-- **PyTorch Training Code**: [Brain Tumor Classifier](https://github.com/C0mpl3xC0D3/brain-tumor-classifier)
-- **ONNX Conversion Guide**: See `docs/CONVERSION_GUIDE.md`
-- **Model Comparison**: See `compare_models.py` for PyTorch vs ONNX validation
+- **PyTorch Training Code**: [Brain Tumor Classifier](https://github.com/Repetto-A/Brain-Tumor-Classifier)
 
----
-
-## 📮 Contact
-
-- **Issues**: [GitHub Issues](https://github.com/C0mpl3xC0D3/BrainTumorClassifierWeb/issues)
-- **Discussions**: [GitHub Discussions](https://github.com/C0mpl3xC0D3/BrainTumorClassifierWeb/discussions)
 
 ---
 
@@ -500,7 +492,7 @@ If you use this project in your research:
   author = {Your Name},
   title = {Brain Tumor Classifier Web: Browser-Based Deep Learning Inference},
   year = {2025},
-  url = {https://github.com/C0mpl3xC0D3/BrainTumorClassifierWeb},
+  url = {https://github.com/Repetto-A/BrainTumorAI-Web},
   note = {ONNX Runtime Web implementation}
 }
 ```
@@ -524,6 +516,6 @@ If you use this project in your research:
 
 Made with ❤️ for the ML community
 
-[Report Bug](https://github.com/C0mpl3xC0D3/BrainTumorClassifierWeb/issues) · [Request Feature](https://github.com/C0mpl3xC0D3/BrainTumorClassifierWeb/issues) · [View Demo](https://your-app.vercel.app)
+[Report Bug](https://github.com/Repetto-A/BrainTumorAI-Web/issues) · [Request Feature](https://github.com/Repetto-A/BrainTumorAI-Web/issues) · [View Demo](https://your-app.vercel.app)
 
 </div>
