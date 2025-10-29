@@ -474,7 +474,6 @@ export default function BrainTumorClassifier() {
                     Kaggle Dataset
                     <ExternalLink className="w-3 h-3" />
                   </a>
-                  </a>
                 </div>
               </AccordionContent>
             </AccordionItem>
