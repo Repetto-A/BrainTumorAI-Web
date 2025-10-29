@@ -29,14 +29,14 @@ interface SampleImage {
 }
 
 const samples: SampleImage[] = [
-  { id: 1, src: "/brain-mri-scan-showing-glioma-tumor.jpg", label: "Glioma", class: "glioma" },
-  { id: 2, src: "/brain-mri-scan-with-glioma.jpg", label: "Glioma", class: "glioma" },
-  { id: 3, src: "/brain-mri-scan-showing-meningioma-tumor.jpg", label: "Meningioma", class: "meningioma" },
-  { id: 4, src: "/brain-mri-scan-with-meningioma.jpg", label: "Meningioma", class: "meningioma" },
-  { id: 5, src: "/healthy-brain-mri-scan-no-tumor.jpg", label: "No Tumor", class: "notumor" },
-  { id: 6, src: "/normal-brain-mri-scan.jpg", label: "No Tumor", class: "notumor" },
-  { id: 7, src: "/brain-mri-scan-showing-pituitary-tumor.jpg", label: "Pituitary", class: "pituitary" },
-  { id: 8, src: "/brain-mri-scan-with-pituitary-adenoma.jpg", label: "Pituitary", class: "pituitary" },
+  { id: 1, src: "/glioma1.jpg", label: "Glioma", class: "glioma" },
+  { id: 2, src: "/glioma2.jpg", label: "Glioma", class: "glioma" },
+  { id: 3, src: "/meningioma1.jpg", label: "Meningioma", class: "meningioma" },
+  { id: 4, src: "/meningioma2.jpg", label: "Meningioma", class: "meningioma" },
+  { id: 5, src: "/notumor1.jpg", label: "No Tumor", class: "notumor" },
+  { id: 6, src: "/notumor2.jpg", label: "No Tumor", class: "notumor" },
+  { id: 7, src: "/pituitary1.jpg", label: "Pituitary", class: "pituitary" },
+  { id: 8, src: "/pituitary2.jpg", label: "Pituitary", class: "pituitary" },
 ]
 
 const classColors: Record<TumorClass, string> = {
