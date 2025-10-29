@@ -11,7 +11,7 @@
 Transform PyTorch deep learning models into real-time web applications with ONNX Runtime Web. This project demonstrates end-to-end ML deployment from training to production-ready inference.
 
 <div align="center">
-  <img src="demo.gif" alt="Demo" width="600px">
+  <img src="public/demo.jpg" alt="Demo" width="600px">
 </div>
 
 ---
