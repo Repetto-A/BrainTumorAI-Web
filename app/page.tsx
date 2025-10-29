@@ -445,17 +445,27 @@ export default function BrainTumorClassifier() {
               <AccordionContent className="px-6 pb-4">
                 <div className="space-y-3">
                   <a
-                    href="https://github.com"
+                    href="https://github.com/Repetto-A/BrainTumorAI-Web"
                     target="_blank"
                     rel="noopener noreferrer"
                     className="flex items-center gap-2 text-blue-600 hover:text-blue-700"
                   >
                     <Github className="w-4 h-4" />
-                    GitHub Repository
+                    Web Application Repository
                     <ExternalLink className="w-3 h-3" />
                   </a>
                   <a
-                    href="https://kaggle.com"
+                    href="https://github.com/Repetto-A/Brain-Tumor-Classifier"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="flex items-center gap-2 text-blue-600 hover:text-blue-700"
+                  >
+                    <Github className="w-4 h-4" />
+                    Model Repository
+                    <ExternalLink className="w-3 h-3" />
+                  </a>
+                  <a
+                    href="https://www.kaggle.com/datasets/masoudnickparvar/brain-tumor-mri-dataset"
                     target="_blank"
                     rel="noopener noreferrer"
                     className="flex items-center gap-2 text-blue-600 hover:text-blue-700"
@@ -464,10 +474,6 @@ export default function BrainTumorClassifier() {
                     Kaggle Dataset
                     <ExternalLink className="w-3 h-3" />
                   </a>
-                  <a href="#" className="flex items-center gap-2 text-blue-600 hover:text-blue-700">
-                    <ExternalLink className="w-4 h-4" />
-                    Read Full Documentation
-                    <ExternalLink className="w-3 h-3" />
                   </a>
                 </div>
               </AccordionContent>
@@ -486,7 +492,7 @@ export default function BrainTumorClassifier() {
               consult healthcare professionals.
             </AlertDescription>
           </Alert>
-          <p className="text-center text-gray-600 text-sm">Made by Your Name | {new Date().getFullYear()}</p>
+          <p className="text-center text-gray-600 text-sm">Made by Alejandro Repetto | {new Date().getFullYear()}</p>
         </div>
       </footer>
     </div>
