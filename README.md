@@ -4,7 +4,7 @@
 [![ONNX Runtime](https://img.shields.io/badge/ONNX-Runtime%20Web-blue?logo=onnx)](https://onnxruntime.ai/)
 [![TypeScript](https://img.shields.io/badge/TypeScript-5-blue?logo=typescript)](https://www.typescriptlang.org/)
 [![License: Unlicense](https://img.shields.io/badge/license-Unlicense-blue.svg)](#license)
-[![Live Demo](https://img.shields.io/badge/demo-live-success?logo=vercel)](https://your-app.vercel.app)
+[![Live Demo](https://img.shields.io/badge/demo-live-success?logo=vercel)](https://brain-tumor-ai-web.vercel.app)
 
 > **AI-powered brain tumor classification running entirely in your browser** — No server required, complete privacy.
 
@@ -489,7 +489,7 @@ If you use this project in your research:
 
 ```bibtex
 @software{brain_tumor_classifier_web,
-  author = {Your Name},
+  author = {Alejandro Repetto},
   title = {Brain Tumor Classifier Web: Browser-Based Deep Learning Inference},
   year = {2025},
   url = {https://github.com/Repetto-A/BrainTumorAI-Web},
@@ -516,6 +516,6 @@ If you use this project in your research:
 
 Made with ❤️ for the ML community
 
-[Report Bug](https://github.com/Repetto-A/BrainTumorAI-Web/issues) · [Request Feature](https://github.com/Repetto-A/BrainTumorAI-Web/issues) · [View Demo](https://your-app.vercel.app)
+[Report Bug](https://github.com/Repetto-A/BrainTumorAI-Web/issues) · [Request Feature](https://github.com/Repetto-A/BrainTumorAI-Web/issues) · [View Demo](https://brain-tumor-ai-web.vercel.app)
 
 </div>
